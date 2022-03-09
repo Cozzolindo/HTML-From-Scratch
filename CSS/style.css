@@ -32,6 +32,7 @@ p{
     margin: 10px 0 0;
 }
 
+/*Descendant Selectors*/
 .fancy em{
     color: aqua;
 }
@@ -43,6 +44,7 @@ div h2{
     color:blueviolet;
 }
 
+/* Grouping Selectors */
 .fancy, .notfancy{
     font-size: 50px;
     padding: 10px;
