@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
     font-family: 'Franklin Gothic Medium';
     background-color: #eee;
@@ -11,6 +16,7 @@ h1{
 }
 p{
     font-style: italic;
+    color: #eee;
     
 }
 
@@ -18,11 +24,26 @@ p{
     background: pink;
     color: #eee;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    padding: 10px;
 }
 
 .fancy{
     background: #222;
-    color: #eee;
-    font-size: 24px;
+    margin: 10px 0 0;
+}
+
+.fancy em{
+    color: aqua;
+}
+
+div h1 {
+    color:hotpink;
+}
+div h2{
+    color:blueviolet;
+}
+
+.fancy, .notfancy{
+    font-size: 50px;
+    padding: 10px;
 }
