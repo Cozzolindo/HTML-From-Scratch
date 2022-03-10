@@ -164,3 +164,73 @@ code{
     background-color: hotpink;
     color: white;
 }
+
+/*Styling Forms*/
+
+#container{
+    width: 500px;
+    margin: 0 auto;
+}
+
+form{
+    background-color: indigo;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset{
+    background-color: deeppink;
+    padding: 40px;
+    border: solid 2px white;
+}
+
+form legend{
+    border: solid 2px white;
+    background-color: deeppink;
+    font-size: 30px;
+    color: black;
+}
+
+form label{
+    color:black;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+form input, form textarea{
+    display: block;
+    margin-bottom: 10px;
+    -webkit-font-smoothing:antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+form input[type='text'], form input[type="email"]{
+    padding: 5px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border: solid 2px white;
+    background-color: darkorchid;
+    width: 330px;
+}
+
+form textarea{
+    padding: 20px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border: solid 2px white;
+    background-color: darkorchid;
+    width: 300px;
+    height: 100px;
+}
+
+form input[type="submit"]{
+    border: none;
+    height: 30px;
+    padding: 0 15px;
+    border: solid 2px white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    background: url("Images/Button+Background.jpg") top left repeat-x;
+}
