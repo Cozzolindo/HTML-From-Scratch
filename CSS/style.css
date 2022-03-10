@@ -145,3 +145,22 @@ code{
     padding:5px;
     font-size: medium;
 }
+
+/* Background Images*/
+
+.background-example{
+    height: 200px;
+    width: 200px;
+    border: solid 4px black;
+}
+
+#background-1 {
+    background-image: url('bgpt4.jpg');
+    background-position: center;
+    background-size: 200px 200px;
+    color: white;
+}
+#background-2 {
+    background-color: hotpink;
+    color: white;
+}
