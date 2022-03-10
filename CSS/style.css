@@ -96,3 +96,52 @@ div h2{
     font-size: 50px;
     padding: 10px;
 }
+
+/* Borders */
+
+.borderBox{
+    background: #eee;
+    margin: 0 0 20px;
+    padding: 20px;
+    width: 300px;
+}
+
+#firstDiv{
+    border: solid 2px hotpink;
+}
+
+#secDiv{
+    border: dashed 2px hotpink;
+}
+
+#thirdDiv{
+    border: dotted 2px hotpink;
+}
+
+#fourDiv{
+    border: double 3px hotpink;
+}
+
+#fiveDiv{
+    border: dashed 4px hotpink;
+}
+
+#sixDiv{
+    border: dotted 4px hotpink;
+}
+
+#sevenDiv{
+    border: double 6px hotpink;
+}
+
+#eightDiv{
+    border: solid 4px hotpink;
+}
+
+code{
+    display: block;
+    color: #8B008B;
+    background: white;
+    padding:5px;
+    font-size: medium;
+}
