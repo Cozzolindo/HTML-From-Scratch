@@ -234,3 +234,46 @@ form input[type="submit"]{
     cursor: pointer;
     background: url("Images/Button+Background.jpg") top left repeat-x;
 }
+
+/* Styling Links */
+
+a:link {
+    color: indigo;
+    text-decoration: none;
+}
+
+a:visited {
+    color: indigo;
+}
+
+a:hover {
+    color: deeppink;
+    text-decoration: underline;
+}
+
+a:active {
+    color:white;
+}
+
+#link1:hover {
+    background-color: violet;
+    color: black;
+    padding: 0;
+    text-decoration: none;
+}
+
+#link3 {
+    background-color: purple;
+    color: white;
+    padding: 0;
+}
+
+#link3:hover{
+    text-decoration: none;
+    color: black;
+    background: white;
+}
+
+#link4:hover {
+    color: greenyellow;
+}
