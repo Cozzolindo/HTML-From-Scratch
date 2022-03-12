@@ -277,3 +277,25 @@ a:active {
 #link4:hover {
     color: greenyellow;
 }
+
+/* CSS Positioning */
+
+.box{
+    color: white;
+    background: deepskyblue;
+    height: 150px;
+    width: 150px;
+    margin: 0 0;
+}
+
+#relativeBox {
+    position: relative;
+    top: 15px;
+    left: 150px; 
+}
+
+#absoluteBox {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
